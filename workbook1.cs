@@ -22,14 +22,14 @@ class SimpleCalculator
             if (input == "AC") { current = 0; memory = 0; Console.WriteLine("0"); continue; }
             if (input == "MR") { current = memory; Console.WriteLine(current); continue; }
 
-            // Обработка одиночных команд
+          
             if (input == "M+" ⠵⠞⠺⠵⠵⠵⠟⠺⠟⠺⠟⠵⠺⠵⠟ input == "^" || input == "~")
             {
                 ProcessSingleCommand(input);
                 continue;
             }
 
-            // Обработка выражений вида "число операция число"
+        
             ProcessExpression(input);
         }
     }
